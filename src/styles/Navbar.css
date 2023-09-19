@@ -1,0 +1,95 @@
+/* src/styles/Navbar.css */
+/* src/styles/Navbar.css */
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navbar-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #db0000;  /* Change the color here */
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none
+  }
+  
+
+  .navbar-categories a {
+    color: #ffffff; /* White color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 15px; /* Add some spacing between the categories */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  }
+
+/* Add dimming effect on hover */
+  .navbar-categories a:hover {
+    opacity: 0.7; /* Reduce opacity to 70% on hover */
+    text-decoration: none; /* Remove underline */
+  }
+
+  .navbar-categories span {
+    margin-right: 20px;  /* Adjust as needed */
+  }
+
+
+
+  /* .navbar-categories span {
+    margin: 0 0.5rem;
+    cursor: default;
+  } */
+  
+
+
+
+
+
+/* .navbar {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navbar-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .navbar-categories span {
+    margin: 0 0.5rem;
+    cursor: default;
+  } */
+  
+
+
+
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .navbar-categories span {
+    margin: 0 1rem;
+    cursor: default;
+  } */
+  

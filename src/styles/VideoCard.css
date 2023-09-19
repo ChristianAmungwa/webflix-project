@@ -1,0 +1,7 @@
+/* src/styles/VideoCard.css */
+
+.video-card iframe {
+    width: 100%;
+    height: 315px;
+  }
+  

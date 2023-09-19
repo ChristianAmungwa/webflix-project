@@ -1,0 +1,118 @@
+/* src/styles/Home.css */
+/* src/styles/Home.css */
+
+.home-container {
+  margin: 20px;
+  background-color: #000000;
+}
+
+.image-category {
+  margin-bottom: 20px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.image-card {
+  flex: 1;
+  margin-right: 10px;
+  position: relative;  /* Important */
+}
+
+.image-card img {
+  transition: all 0.3s ease-in-out;
+}
+
+.image-card img:hover {
+  transform: scale(1.75);
+  position: absolute;  /* Position it absolutely */
+  z-index: 1;  /* Layer it above other elements */
+  top: 0;  /* Align it to the top of the card */
+  left: 0;  /* Align it to the left of the card */
+}
+
+
+
+
+
+
+
+/* .home-container {
+    margin: 20px;
+    background-color: #000000;
+  }
+  
+  .video-category {
+    margin-bottom: 20px;
+  }
+  
+  .video-row {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow: hidden; 
+  }
+  
+  .video-card {
+    flex: 1; 
+    margin-right: 10px;
+  }
+ 
+
+.home-container h1,
+.video-category h2 {
+  color: white;
+} */
+
+
+
+
+
+
+
+
+
+/* .home-container {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .video-category {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .video-row {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .video-card {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 225px;
+    margin-right: 20px;
+  }
+    */
+
+
+
+
+
+
+   /* .home-container {
+    padding: 20px;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+   */
